@@ -5,12 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Score Competition Project
+      - name: Score WAI Competition Project
         uses: WarwickAI/competitions@v1.0.0
-        id: competition
         with:
           project: 'wordle'
-      - name: Competition Summary
-        run: |
-          echo "Score: ${{ steps.competition.outputs.score }}"
-          echo "Details: ${{ steps.competition.outputs.details }}"
