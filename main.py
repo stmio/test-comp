@@ -1,5 +1,5 @@
 def main():
-    print("Hello from test-comp!")
+    print("Hello from test-comp fork!")
 
 
 if __name__ == "__main__":
